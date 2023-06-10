@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'DSPXToken'
+   ---------------------
+   > transaction hash:    0x7326c0cb97a8a1b1e8732d7b3650e32d36467bacf0cf7fb48a546ddc15e4f61c
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x528Fe6da993f4BA5c84C3d0830B325109a7cbdc4
+   > block number:        15
+   > block timestamp:     1686052621
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.99025042196826075
+   > gas used:            727666 (0xb1a72)
+   > gas price:           2.634933817 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001917351750881122 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001917351750881122 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001917351750881122 ETH
+
+

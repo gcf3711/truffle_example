@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'HomeyJar'
+   --------------------
+   > transaction hash:    0x085af6e1436ce4e98906c8e8ae48bf4c83f67f3d67a26732f68c96523775c489
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xBCC1b6EC152d56229216E5A082edAAFDAf771D7b
+   > block number:        1199
+   > block timestamp:     1683881070
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.740181598161481016
+   > gas used:            266839 (0x41257)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000667097502134712 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000667097502134712 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000667097502134712 ETH
+
+

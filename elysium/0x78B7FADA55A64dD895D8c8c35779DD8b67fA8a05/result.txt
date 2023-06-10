@@ -1,0 +1,19 @@
+Using network 'develop'.
+
+/workdir/truffle_example/elysium/0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05/ATLtest.js:201
+      result[25] = await instance.0x94162a98({from: accounts[136], value: web3.utils.toWei("0")})
+                                 ^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (node:vm:100:7)
+    at Object.createScript (node:vm:257:10)
+    at Object.file (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:93:1)
+    at Object.exec (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:121:1)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at bound exec (node:internal/util:346:12)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/exec/run.js:43:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0

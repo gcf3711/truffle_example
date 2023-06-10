@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'VaultProxy'
+   ----------------------
+   > transaction hash:    0x318d4e537e49b65d5bcdd42d91bd7eae39cf049b197e2cd9c36e48a81c657285
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6d2a8c354223b1067351c917F74Fb2c9d4e55A61
+   > block number:        717
+   > block timestamp:     1683880333
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.790587078322778552
+   > gas used:            272306 (0x427b2)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000680765002178448 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000680765002178448 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000680765002178448 ETH
+
+

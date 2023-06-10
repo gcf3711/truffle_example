@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'SaleExtendedBCO'
+   ---------------------------
+   > transaction hash:    0xd1076ec2c37421b14908d573e9e5217ff801f1598f56b69b3eb8247033d4a369
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x344626c7CF85DBD8dB1D1C5D6b86bFB45640bA92
+   > block number:        133
+   > block timestamp:     1686062303
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.977659260236272352
+   > gas used:            197578 (0x303ca)
+   > gas price:           2.500000024 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000493945004741872 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000493945004741872 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000493945004741872 ETH
+
+

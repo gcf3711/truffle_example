@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'sumocoin'
+   --------------------
+   > transaction hash:    0xf041efe87ff1a6feeee6b913a8e7696584c323ca3dd120260aebdf9bfd4abdab
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x56651eb3439DFCec1EA2476502C66157Bf9dC170
+   > block number:        1184
+   > block timestamp:     1683881014
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.745834260679569536
+   > gas used:            877964 (0xd658c)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002194910007023712 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.002194910007023712 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.002194910007023712 ETH
+
+

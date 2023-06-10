@@ -1,0 +1,38 @@
+{
+  "contractName": "MyContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "receiver",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "sendTo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060008054600160a060020a031916331790556101098060326000396000f300608060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416639e1a00aa81146043575b600080fd5b348015604e57600080fd5b50607173ffffffffffffffffffffffffffffffffffffffff600435166024356073565b005b60005473ffffffffffffffffffffffffffffffffffffffff163314609657600080fd5b60405173ffffffffffffffffffffffffffffffffffffffff83169082156108fc029083906000818181858888f1935050505015801560d8573d6000803e3d6000fd5b5050505600a165627a7a72305820d1655057bb1016c6e74ca1bae3ffd90dc56d98881d0f2d4c5238f4ba9958c0350029",
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461",
+      "transactionHash": ""
+    }
+  }
+}

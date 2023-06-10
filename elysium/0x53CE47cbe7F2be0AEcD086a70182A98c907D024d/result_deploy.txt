@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'EasyMineIco'
+   -----------------------
+   > transaction hash:    0xf07f13b839dcf65c3e41a38545af54b8d08ed21985fe42947fe89f1a63600aa6
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x8fb12903e0b713593F134F07C7CCF2F33155C933
+   > block number:        1183
+   > block timestamp:     1686116628
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.958825352676003848
+   > gas used:            1019528 (0xf8e88)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002548820008156224 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.002548820008156224 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.002548820008156224 ETH
+
+

@@ -1,0 +1,4 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,780067,780067 (100%),0 Ether ($0.00) ,constructor,[]
+1,290764,193843 (66.67%),0 Ether ($0.00) ,writeIndex,"[['uint256', '1519794814'], ['string', '0xd09B6E3C8FB7E05e248197EC45c38cD338d66C1a'], ['string', 'Bowen &amp; Luker'], ['uint256', '1504206000'], ['uint256', '1']]"
+2,268840,179227 (66.67%),0 Ether ($0.00) ,writeIndex,"[['uint256', '1519794814'], ['string', '0x958a8f594101d2c0485a52319f29b2647f2ebc06'], ['string', 'Garrett &amp; Stephanie'], ['uint256', '1511715600'], ['uint256', '1']]"

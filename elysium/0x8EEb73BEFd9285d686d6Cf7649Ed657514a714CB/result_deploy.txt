@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'MalaysianCoin'
+   -------------------------
+   > transaction hash:    0xc3338b445123a66b2456b52cecfc8b8bd1f7b73bec2f1efc7b3d9d7e68aee20a
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xA61F1E472380a845Fd14aCdC14e822Ec19f45Ef3
+   > block number:        608
+   > block timestamp:     1683880115
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.810359585886050576
+   > gas used:            1280479 (0x1389df)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003201197510243832 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003201197510243832 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.003201197510243832 ETH
+
+

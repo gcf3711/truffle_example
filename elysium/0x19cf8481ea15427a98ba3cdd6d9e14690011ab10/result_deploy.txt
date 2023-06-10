@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'daoPOLSKAtokens'
+   ---------------------------
+   > transaction hash:    0x3e407bd56c82bdd589bc2fb56ecd06e99d18fd22ca0a145f166014834e504004
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xd93f650dAF4449e5283436f02AB8185fb967e072
+   > block number:        476
+   > block timestamp:     1683879722
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.845516903498553992
+   > gas used:            1872440 (0x1c9238)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00468110001497952 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00468110001497952 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00468110001497952 ETH
+
+

@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'ReimburseToken'
+   --------------------------
+   > transaction hash:    0x5012401fbbbfe816c9dc0957cf47a371eca15a305009577d45cc0c49d6f10849
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xc50d63108B5705ed71237EFc735E5134A585Dc99
+   > block number:        1197
+   > block timestamp:     1683881061
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.740848695663615728
+   > gas used:            677671 (0xa5727)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001694177505421368 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001694177505421368 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001694177505421368 ETH
+
+

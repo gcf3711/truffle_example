@@ -1,0 +1,512 @@
+Using network 'develop'.
+
+1
+{
+  tx: '0xa3586d72af7bee5ec5cccfd3a4f3a45601457045bbf705516e1d2e7b902ff529',
+  receipt: {
+    transactionHash: '0xa3586d72af7bee5ec5cccfd3a4f3a45601457045bbf705516e1d2e7b902ff529',
+    transactionIndex: 0,
+    blockNumber: 2,
+    blockHash: '0x40cb1f7d1bb73c622496da76524a26b3cfd6caba0245b375b1cf530ee09d4c0f',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 26478,
+    gasUsed: 26478,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3275022110,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:17:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Transaction has been reverted by the EVM:
+{
+  "transactionHash": "0x73c64b7ffafa6b677f631917f2b14ac1d4a65d0c39f9d66a45c2867e8cc8b4ed",
+  "transactionIndex": 0,
+  "blockNumber": 3,
+  "blockHash": "0x667303add6d3ca5972bd296b59baecfa2e4d7f738946a8db20d10b6e0e392d4e",
+  "from": "0x4e6de3f1e73b0219ebbdda39b807be71a64e965d",
+  "to": "0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461",
+  "cumulativeGasUsed": 21046,
+  "gasUsed": 21046,
+  "contractAddress": null,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "effectiveGasPrice": 3178907554,
+  "type": "0x2"
+}
+    at Object.TransactionError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:87:1)
+    at Object.TransactionRevertedWithoutReasonError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:98:1)
+    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-core-method/lib/index.js:396:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  receipt: {
+    transactionHash: '0x73c64b7ffafa6b677f631917f2b14ac1d4a65d0c39f9d66a45c2867e8cc8b4ed',
+    transactionIndex: 0,
+    blockNumber: 3,
+    blockHash: '0x667303add6d3ca5972bd296b59baecfa2e4d7f738946a8db20d10b6e0e392d4e',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 21046,
+    gasUsed: 21046,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: false,
+    effectiveGasPrice: 3178907554,
+    type: '0x2'
+  }
+}
+Error: Transaction has been reverted by the EVM:
+{
+  "transactionHash": "0x91b0be9ddfc81dc09f4debf36c3316750423d3c2e76d3c02fddd44600f1d1cb5",
+  "transactionIndex": 0,
+  "blockNumber": 4,
+  "blockHash": "0xae2bef7507ffeb9fe3074647a12a4022f30b7f7c9c3a2128a407eb5fbac69199",
+  "from": "0x4e6de3f1e73b0219ebbdda39b807be71a64e965d",
+  "to": "0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461",
+  "cumulativeGasUsed": 21046,
+  "gasUsed": 21046,
+  "contractAddress": null,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "effectiveGasPrice": 3094575512,
+  "type": "0x2"
+}
+    at Object.TransactionError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:87:1)
+    at Object.TransactionRevertedWithoutReasonError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:98:1)
+    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-core-method/lib/index.js:396:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  receipt: {
+    transactionHash: '0x91b0be9ddfc81dc09f4debf36c3316750423d3c2e76d3c02fddd44600f1d1cb5',
+    transactionIndex: 0,
+    blockNumber: 4,
+    blockHash: '0xae2bef7507ffeb9fe3074647a12a4022f30b7f7c9c3a2128a407eb5fbac69199',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 21046,
+    gasUsed: 21046,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: false,
+    effectiveGasPrice: 3094575512,
+    type: '0x2'
+  }
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:41:34)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+6
+{
+  tx: '0xd6db8bab5aa4d7a9d0ec6a16d54b00b6f8ab1256ea9b2f345d8564a2c4c350c4',
+  receipt: {
+    transactionHash: '0xd6db8bab5aa4d7a9d0ec6a16d54b00b6f8ab1256ea9b2f345d8564a2c4c350c4',
+    transactionIndex: 0,
+    blockNumber: 5,
+    blockHash: '0x38414be961a9ebe247e1641cad8ff25aec72b7254d36c3d0e9a7d3c7e9494243',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 23686,
+    gasUsed: 23686,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3020718966,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+7
+{
+  tx: '0x60680f97939ec8f87cce3311f6bb45a0cf5faaad5ddaed34f2d82cdc372d6e49',
+  receipt: {
+    transactionHash: '0x60680f97939ec8f87cce3311f6bb45a0cf5faaad5ddaed34f2d82cdc372d6e49',
+    transactionIndex: 0,
+    blockNumber: 6,
+    blockHash: '0x641ef7ae4c98b4b73378a6c841e88d2c8bbe7c98a802fb8cdc84b356d3972833',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 26478,
+    gasUsed: 26478,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2956087806,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+8
+{
+  tx: '0xc0a7913d4b59669ec8fb3c06b9e122f98bf2fbaabd3536278551647ec1810dae',
+  receipt: {
+    transactionHash: '0xc0a7913d4b59669ec8fb3c06b9e122f98bf2fbaabd3536278551647ec1810dae',
+    transactionIndex: 0,
+    blockNumber: 7,
+    blockHash: '0x12ee842d88f6f698e5cd2564c2db9b439fbe93e77aef292b973a4082e5a5c62e',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 26466,
+    gasUsed: 26466,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2899525966,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:73:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+10
+{
+  tx: '0x3cda11e2b3fa5304dc4d650f27267f4141d8bfe83d6389e3818f1203f12dc551',
+  receipt: {
+    transactionHash: '0x3cda11e2b3fa5304dc4d650f27267f4141d8bfe83d6389e3818f1203f12dc551',
+    transactionIndex: 0,
+    blockNumber: 8,
+    blockHash: '0x44ca91f445d7e1ed0968b26c08764f61e3d37759556dc9a4cf0507f329bd7d3a',
+    from: '0x63283aa89242d505d2de71b27bfb54e634846967',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 26478,
+    gasUsed: 26478,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2849978478,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:89:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+12
+{
+  tx: '0xfffeca560f4ec0be8473ea339d7ead84af8f20c04e277e5db5f7b6d65c881985',
+  receipt: {
+    transactionHash: '0xfffeca560f4ec0be8473ea339d7ead84af8f20c04e277e5db5f7b6d65c881985',
+    transactionIndex: 0,
+    blockNumber: 9,
+    blockHash: '0xff7201f6eca40f253c783164a786ee60b4b1e2539f222d9a1d83c944e09caea4',
+    from: '0xdcaff92493894c5cc870b97260a89174a4cb70ca',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 45738,
+    gasUsed: 45738,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2806575812,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+13
+{
+  tx: '0xc27cf3e7a4175d8efb7fd8d47ccb136f01cf70d91a9e96fc2a9532a2b34884b4',
+  receipt: {
+    transactionHash: '0xc27cf3e7a4175d8efb7fd8d47ccb136f01cf70d91a9e96fc2a9532a2b34884b4',
+    transactionIndex: 0,
+    blockNumber: 10,
+    blockHash: '0x7e0db19146c719c5b7282f3ddddc092741305692eb9f11f16f0c33636522d7ab',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 45738,
+    gasUsed: 45738,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2768775341,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+14
+{
+  tx: '0x47c18ae323e045242d0aea3785a31188a9e73f8b9a3944b981de8aa7fb947d5e',
+  receipt: {
+    transactionHash: '0x47c18ae323e045242d0aea3785a31188a9e73f8b9a3944b981de8aa7fb947d5e',
+    transactionIndex: 0,
+    blockNumber: 11,
+    blockHash: '0x60e5b4f1575eda07560f4283e4e46f64cb7a2c5df7484f27f7ef1689d728469f',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 47878,
+    gasUsed: 47878,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2735635628,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+15
+{
+  tx: '0x6b1806a640049d15c8eacb39f2568ce99c9b2ed6fcfa061fc0a251f62bc97fea',
+  receipt: {
+    transactionHash: '0x6b1806a640049d15c8eacb39f2568ce99c9b2ed6fcfa061fc0a251f62bc97fea',
+    transactionIndex: 0,
+    blockNumber: 12,
+    blockHash: '0x7ecb17c372f1eefbba9d35880da7e526d535bb53596487089eecc42316b45519',
+    from: '0xdcaff92493894c5cc870b97260a89174a4cb70ca',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 50018,
+    gasUsed: 50018,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2706600760,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+16
+{
+  tx: '0x1e7377e93f43ef3b0f2203809e3edd520c42aba0cd71500c60947f51899d73e9',
+  receipt: {
+    transactionHash: '0x1e7377e93f43ef3b0f2203809e3edd520c42aba0cd71500c60947f51899d73e9',
+    transactionIndex: 0,
+    blockNumber: 13,
+    blockHash: '0xaa731589653cd596baecbaa6879c7fde18a2cdf616761cfddc88663fc92fae86',
+    from: '0xdcaff92493894c5cc870b97260a89174a4cb70ca',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 43598,
+    gasUsed: 43598,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2681159993,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+17
+{
+  tx: '0x82e3d076fb4254104c382c72c04833a1b1ab8219648f42253a6d3d5479064a28',
+  receipt: {
+    transactionHash: '0x82e3d076fb4254104c382c72c04833a1b1ab8219648f42253a6d3d5479064a28',
+    transactionIndex: 0,
+    blockNumber: 14,
+    blockHash: '0x7cc004f803706f9a7c09a0787073c8aed49786aeab0b3a6d6e8009a8895181f1',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 50018,
+    gasUsed: 50018,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2658808740,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+18
+{
+  tx: '0xcc858c77f83e2a4314fe2c2aa32716194704e31673645d5c4bbbfbae3b640fbd',
+  receipt: {
+    transactionHash: '0xcc858c77f83e2a4314fe2c2aa32716194704e31673645d5c4bbbfbae3b640fbd',
+    transactionIndex: 0,
+    blockNumber: 15,
+    blockHash: '0x6ff5d57f2fc9a66f3fd022ee1dac3893320bdbc2ab4f0a1b7ad49e9388ab924d',
+    from: '0xe1514bf54d41c2cf46b1e4d6e70fb67cb5a175be',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 45738,
+    gasUsed: 45738,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2639253071,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:153:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+20
+{
+  tx: '0x2cfa5fb1249babff2454f10a04cdf470667b1ac609e5e520519c2e27d82e4e6d',
+  receipt: {
+    transactionHash: '0x2cfa5fb1249babff2454f10a04cdf470667b1ac609e5e520519c2e27d82e4e6d',
+    transactionIndex: 0,
+    blockNumber: 16,
+    blockHash: '0xc8eb77788e4fc71dbed83f8fdf271e9b0c4a52f4973b822cf22d982c830186b2',
+    from: '0xbc7300ff72d3eda560e0281ef96c80aa15dc6a76',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 67138,
+    gasUsed: 67138,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2622083316,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984/EtherGettest.js:169:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 559,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}

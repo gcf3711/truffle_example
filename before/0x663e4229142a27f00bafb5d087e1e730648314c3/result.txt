@@ -1,0 +1,7 @@
+Using network 'develop'.
+
+Error: PandaCore has not been deployed to detected network (network/artifact mismatch)
+    at Object.checkNetworkArtifactMatch (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/utils/index.js:256:1)
+    at Function.deployed (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/constructorMethods.js:83:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at module.exports (/workdir/truffle_example/0x663e4229142a27f00bafb5d087e1e730648314c3/PandaCoretest.js:6:16)

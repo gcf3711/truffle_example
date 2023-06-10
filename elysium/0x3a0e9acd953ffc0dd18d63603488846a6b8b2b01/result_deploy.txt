@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'TokenBank'
+   ---------------------
+   > transaction hash:    0xe1b30e68ff87e7fd1ab8081ccae3cbd97b8272219b1138693e3a05ae5e4661cc
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x90935408a2BaCDa21B1B06873cC20121916d95b0
+   > block number:        1221
+   > block timestamp:     1683881156
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.731171423132648456
+   > gas used:            340728 (0x532f8)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000851820002725824 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000851820002725824 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000851820002725824 ETH
+
+

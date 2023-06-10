@@ -1,0 +1,7 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,1097363,1097363 (100%),0 Ether ($0.00) ,constructor,[]
+1,250000, 45384 (18.15%),0 Ether ($0.00) ,approve,"[['address', '0x8d12A197cB00D4747a1fe03395095ce2A5CC6819'], ['uint256', '5000000000000']]"
+2,250000,36364 (14.55%),0 Ether ($0.00) ,transfer,"[['address', '0x80E6f1e0D08e8B4932696988277d1F527f271acC'], ['uint256', '10000000000']]"
+3,250000,21428 (8.57%),0 Ether ($0.00) ,transfer,"[['address', '0x80E6f1e0D08e8B4932696988277d1F527f271acC'], ['uint256', '42622869105']]"
+4,51428,36428 (70.83%),0 Ether ($0.00) ,transfer,"[['address', '0x2A71D69C9BB62c1Eb46060E1e1A95E78b54f9117'], ['uint256', '52622869105']]"
+5,250000,45384 (18.15%),0 Ether ($0.00) ,approve,"[['address', '0x8d12A197cB00D4747a1fe03395095ce2A5CC6819'], ['uint256', '52622869105']]"

@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'Centra4'
+   -------------------
+   > transaction hash:    0xa03db6afb6e6689febc16b6afb9e7209d3b9d06d38eb4efc76b44fa9d8a6d0e9
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x58917B3E4468e58638DcFEb5e5FFb84882bcCaf7
+   > block number:        8
+   > block timestamp:     1686051496
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.999071527437492184
+   > gas used:            161859 (0x27843)
+   > gas price:           2.843608918 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000460263695858562 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000460263695858562 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000460263695858562 ETH
+
+

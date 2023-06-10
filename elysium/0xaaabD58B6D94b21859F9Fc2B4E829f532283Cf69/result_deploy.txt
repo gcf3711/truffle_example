@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'UCoinToken'
+   ----------------------
+   > transaction hash:    0x4ae51ede7438f3f9d9bfe3ac9e3534af3c02ba1b9b457c5dae4013a7c9f343cf
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x3220a8aeB08Cd4BFF4a377696f9F1fc2E9f098D4
+   > block number:        1010
+   > block timestamp:     1683880686
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.781640933294150888
+   > gas used:            907324 (0xdd83c)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002268310007258592 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.002268310007258592 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.002268310007258592 ETH
+
+

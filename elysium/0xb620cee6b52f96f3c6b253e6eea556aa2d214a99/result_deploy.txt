@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'DrainMe'
+   -------------------
+   > transaction hash:    0x3ccb4037d73934f5c499465786df40dd464073fa82b1fa2ca3d4ca09242abe18
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x345C987495891220886D62aDB995099B73177F62
+   > block number:        502
+   > block timestamp:     1683879844
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.83676983097056336
+   > gas used:            621783 (0x97cd7)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001554457504974264 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001554457504974264 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001554457504974264 ETH
+
+

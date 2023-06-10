@@ -1,0 +1,62 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'OKOToken'
+   --------------------
+   > transaction hash:    0xd25ddfb94dc336a7802817706739d82e1978c563b32bb3ac7cc37ed701e73694
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xfA87aaBaE0B852aE13cF76962c0eBCF9e254b6D3
+   > block number:        1505
+   > block timestamp:     1686117346
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.950847592650475016
+   > gas used:            1550552 (0x17a8d8)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003876380012404416 ETH
+
+
+   Replacing 'IcoOKOToken'
+   -----------------------
+ *** Deployment Failed ***
+
+"IcoOKOToken" hit a require or revert statement somewhere in its constructor. Try:
+   * Verifying that your constructor params satisfy all require conditions.
+   * Adding reason strings to your require statements.
+
+
+Exiting: Review successful transactions manually by checking the transaction hashes above on Etherscan.
+
+
+Error:  *** Deployment Failed ***
+
+"IcoOKOToken" hit a require or revert statement somewhere in its constructor. Try:
+   * Verifying that your constructor params satisfy all require conditions.
+   * Adding reason strings to your require statements.
+
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:331:1
+    at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+    at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0

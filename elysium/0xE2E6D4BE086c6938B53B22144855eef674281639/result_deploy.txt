@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'LinkToken'
+   ---------------------
+   > transaction hash:    0x06a742a03f6c4c469ad8ef58ba511d2d7fd894879e129692499be9a7a0b56773
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x0b77d8986d1D7C82b9aEBb5CC8bd2f8A3cD0081f
+   > block number:        478
+   > block timestamp:     1683879731
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.844035670993814048
+   > gas used:            564188 (0x89bdc)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001410470004513504 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001410470004513504 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001410470004513504 ETH
+
+

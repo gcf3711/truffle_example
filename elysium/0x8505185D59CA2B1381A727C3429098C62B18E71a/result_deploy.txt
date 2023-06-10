@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'NGToken'
+   -------------------
+   > transaction hash:    0x6a928ece430940b03efd26d0c5193b5dffd06fd68110f3c574bc04e4d4a5cc92
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xBc189BC89838673705e0e64ABcB9303bd045B17d
+   > block number:        596
+   > block timestamp:     1683880075
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.815873328403694552
+   > gas used:            1348818 (0x1494d2)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003372045010790544 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003372045010790544 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.003372045010790544 ETH
+
+

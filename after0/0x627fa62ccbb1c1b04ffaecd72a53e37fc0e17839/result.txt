@@ -1,0 +1,121 @@
+Using network 'develop'.
+
+1
+{
+  tx: '0x4152b3780fb57680f6caa9244a10693b7529e686a800ae0585fe4994ae1716b6',
+  receipt: {
+    transactionHash: '0x4152b3780fb57680f6caa9244a10693b7529e686a800ae0585fe4994ae1716b6',
+    transactionIndex: 0,
+    blockNumber: 2,
+    blockHash: '0x625a2be51804ba56d5decc5354d005e4a334e621b3973c5131bc013421c15b0f',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 45599,
+    gasUsed: 45599,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3285314464,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+2
+{
+  transactionHash: '0xb1867884d75cc1397b48c54fae51f17ee66b74cdd6f047a013c4c411aa9d6cc1',
+  transactionIndex: 0,
+  blockNumber: 3,
+  blockHash: '0xe69aa05b4b0e0589db54f552d27f2f6d14fd136d1a2f5171e2a39bd2863d8980',
+  from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+  to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+  cumulativeGasUsed: 23189,
+  gasUsed: 23189,
+  contractAddress: null,
+  logs: [],
+  logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+  status: true,
+  effectiveGasPrice: 3188481966,
+  type: '0x2'
+}
+TypeError: instance.transfer is not a function
+    at module.exports (/workdir/truffle_example/after/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839/TokenBanktest.js:25:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+4
+{
+  tx: '0xb71301b7d235122031c6a7842183e66d45a1d1796f8fa2b00b34da8b40e2d515',
+  receipt: {
+    transactionHash: '0xb71301b7d235122031c6a7842183e66d45a1d1796f8fa2b00b34da8b40e2d515',
+    transactionIndex: 0,
+    blockNumber: 4,
+    blockHash: '0x9ea03f91bf6d5fb0f959acb0c1f1df345df82b73c143e7f4afc5309905896a31',
+    from: '0x63283aa89242d505d2de71b27bfb54e634846967',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28499,
+    gasUsed: 28499,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3103015490,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Invalid number of parameters for "WithdrawToken". Got 1 expected 3!
+    at module.exports (/workdir/truffle_example/after/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839/TokenBanktest.js:41:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  hijackedStack: 'Error: Invalid number of parameters for "WithdrawToken". Got 1 expected 3!\n' +
+    '    at Object.InvalidNumberOfParams (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:33:1)\n' +
+    '    at Object._createTxObject (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:694:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+6
+{
+  tx: '0x842046e5f26e4dc827b95f0b7c387c862f808831f08169ea441f5144467934e0',
+  receipt: {
+    transactionHash: '0x842046e5f26e4dc827b95f0b7c387c862f808831f08169ea441f5144467934e0',
+    transactionIndex: 0,
+    blockNumber: 5,
+    blockHash: '0x38ff62ef3ccee5aa21c325205e0e2aa441e8bab34ff2fead61a8262eca18b7ab',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 45651,
+    gasUsed: 45651,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3028277702,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: Returned error: VM Exception while processing transaction: invalid opcode
+    at module.exports (/workdir/truffle_example/after/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839/TokenBanktest.js:57:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 2279,
+    result: '0x',
+    reason: null,
+    message: 'invalid opcode'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: invalid opcode\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}

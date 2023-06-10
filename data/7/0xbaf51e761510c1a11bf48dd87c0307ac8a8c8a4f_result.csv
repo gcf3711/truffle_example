@@ -1,0 +1,5 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,485515,404596 (83.33%),0 Ether ($0.00) ,constructor,[]
+1,292694,158791 (54.25%),"1.000000012477328 Ether  ($1,797.26) ",Deposit,[]
+2,21423,21423 (100%),0 Ether ($0.00) ,withdraw,[]
+3,145558,22965 (15.78%),0 Ether ($0.00) ,CashOut,"[['uint256', '1000000012477328000'], ['', '0xaf894e8f99ebf6f5cdd2982ab7f9ca1336211ff0']]"

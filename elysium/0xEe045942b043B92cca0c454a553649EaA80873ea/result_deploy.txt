@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'TokenERC20'
+   ----------------------
+   > transaction hash:    0xb8365519623a4f9dc4803877d3af8fcfe419f218a81162ebdd0f4a5b80e78122
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xc7b62b17Bf356ea2583A704C7397609b3F0E9085
+   > block number:        660
+   > block timestamp:     1683880234
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.797516633344953128
+   > gas used:            796339 (0xc26b3)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001990847506370712 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001990847506370712 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001990847506370712 ETH
+
+

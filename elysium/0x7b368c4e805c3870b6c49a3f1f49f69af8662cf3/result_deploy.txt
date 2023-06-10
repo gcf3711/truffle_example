@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'W_WALLET'
+   --------------------
+   > transaction hash:    0x57a627c6961bf78b942dee310202065b265f1b06e8e8f9d7b0bb43ba30adb41f
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x3c2C28D17f7Bae33c1d08aD17f64874A7c30F12A
+   > block number:        654
+   > block timestamp:     1683880214
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.800126623353305096
+   > gas used:            110781 (0x1b0bd)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000276952500886248 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000276952500886248 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000276952500886248 ETH
+
+

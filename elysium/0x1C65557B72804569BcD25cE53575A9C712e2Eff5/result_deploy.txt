@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'Play2LivePromo'
+   --------------------------
+   > transaction hash:    0x15d9ab223d3f742e4ac2fe4e8f477c553a5131780eee40f6b34eed38235b4e40
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xeEd17e8017860C17Bef688df1c1aaD1C8A733947
+   > block number:        546
+   > block timestamp:     1683879988
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.8239826559296444
+   > gas used:            485281 (0x767a1)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001213202503882248 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001213202503882248 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001213202503882248 ETH
+
+

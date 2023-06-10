@@ -1,0 +1,62 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'ClassyCoin'
+   ----------------------
+   > transaction hash:    0x791517b3cfe1d1ae8603a88a36c330e8b0f814193a6d118420e5d03be97e1f59
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xd89306135CbDF76b15A2164Ee1dC118179a5E9E0
+   > block number:        1182
+   > block timestamp:     1686116510
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.961374172684160072
+   > gas used:            1818404 (0x1bbf24)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004546010014547232 ETH
+
+
+   Replacing 'ClassyCoinAirdrop'
+   -----------------------------
+ *** Deployment Failed ***
+
+"ClassyCoinAirdrop" hit a require or revert statement somewhere in its constructor. Try:
+   * Verifying that your constructor params satisfy all require conditions.
+   * Adding reason strings to your require statements.
+
+
+Exiting: Review successful transactions manually by checking the transaction hashes above on Etherscan.
+
+
+Error:  *** Deployment Failed ***
+
+"ClassyCoinAirdrop" hit a require or revert statement somewhere in its constructor. Try:
+   * Verifying that your constructor params satisfy all require conditions.
+   * Adding reason strings to your require statements.
+
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:331:1
+    at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+    at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0

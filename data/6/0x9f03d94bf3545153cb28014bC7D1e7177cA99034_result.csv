@@ -1,0 +1,9 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,1377342,1277341 (92.74%),0 Ether ($0.00) ,constructor,[]
+1,152217,52216 (34.3%),0 Ether ($0.00) ,transfer,"[['address', '0xb96f072E5b32E305fFbdE17dc6579FBC75D4289f'], ['uint256', '10000000000']]"
+2,152153,52152 (34.28%),0 Ether ($0.00) ,transfer,"[['address', '0x0b00e3d025B2695F2c83fC3cBf9177dc3cDFc9C4'], ['uint256', '10000000000']]"
+3,152217,52216 (34.3%),0 Ether ($0.00) ,transfer,"[['address', '0xd5D99C011123d52d95688eEa7FB2447166Aa7286'], ['uint256', '10000000000']]"
+4,138360,38359 (27.72%),0 Ether ($0.00) ,mintToken,"[['address', '0xf6b788ceE858eb6a156882DAd70422f37D201e0f'], ['uint256', '100000000000000000']]"
+5,137217,37216 (27.12%),0 Ether ($0.00) ,transfer,"[['address', '0xd5D99C011123d52d95688eEa7FB2447166Aa7286'], ['uint256', '1000000000000']]"
+6,137217,37216 (27.12%),0 Ether ($0.00) ,transfer,"[['address', '0xd5D99C011123d52d95688eEa7FB2447166Aa7286'], ['uint256', '1000000000000']]"
+7,152281,52280 (34.33%),0 Ether ($0.00) ,transfer,"[['address', '0xDca67A9261778FD4Db6132a19B47CaE5Ae9bEc76'], ['uint256', '100000000000000']]"

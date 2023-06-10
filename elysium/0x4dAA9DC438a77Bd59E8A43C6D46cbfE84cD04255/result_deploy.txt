@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'BattleToken'
+   -----------------------
+   > transaction hash:    0x9fe08c2f7bdad2fe8ef60e76aae9fdafec4405e6998b89023f2bd8721cdb46ad
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xb11Befcb205789550FfAba443F9eb8766803FA20
+   > block number:        23
+   > block timestamp:     1686052928
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.986501882900555724
+   > gas used:            735101 (0xb377d)
+   > gas price:           2.546364466 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001871835065321066 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001871835065321066 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001871835065321066 ETH
+
+

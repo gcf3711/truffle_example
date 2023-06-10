@@ -1,0 +1,7 @@
+Using network 'develop'.
+
+Error: Presale has not been deployed to detected network (network/artifact mismatch)
+    at Object.checkNetworkArtifactMatch (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/utils/index.js:256:1)
+    at Function.deployed (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/constructorMethods.js:83:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at module.exports (/workdir/truffle_example/after/0x0961375ed779fe16435d5d430da00a5bac527e46/Presaletest.js:6:16)

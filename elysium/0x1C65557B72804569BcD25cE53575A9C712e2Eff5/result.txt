@@ -1,0 +1,1006 @@
+Using network 'develop'.
+
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:9:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:17:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:25:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+4
+{
+  tx: '0x5135158ed1bcb1254544488a35fc09a27370ad341615a88b16918299a677a219',
+  receipt: {
+    transactionHash: '0x5135158ed1bcb1254544488a35fc09a27370ad341615a88b16918299a677a219',
+    transactionIndex: 0,
+    blockNumber: 547,
+    blockHash: '0x2050e10f94af50767c9b43c489e390579eaf386b65e421e33c51a2c45a0944ed',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:41:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+6
+{
+  tx: '0x1ee06056a2c6e813b72c027b0c6f2cade45b948fd3c42e7a05b6361bca5c4879',
+  receipt: {
+    transactionHash: '0x1ee06056a2c6e813b72c027b0c6f2cade45b948fd3c42e7a05b6361bca5c4879',
+    transactionIndex: 0,
+    blockNumber: 548,
+    blockHash: '0x31197c2153e829b0bd1e18abbdac7be84769f6849bea6441c44c0f9b1fedbe2d',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+7
+{
+  tx: '0xbac408f00dde6e2554f8f9f67784a171dc1fdb7e52445c32ebe7e59cbc7fcd67',
+  receipt: {
+    transactionHash: '0xbac408f00dde6e2554f8f9f67784a171dc1fdb7e52445c32ebe7e59cbc7fcd67',
+    transactionIndex: 0,
+    blockNumber: 549,
+    blockHash: '0xceed8f31c1faf16b45f97776903d4b0ef4b072e1f1ea7fb3e4e009fa27fdd5a2',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:65:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:73:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+10
+{
+  tx: '0xdf5d2b7aef3508942876d836815e13d21b94a46b99b011107c89e83212d47a7d',
+  receipt: {
+    transactionHash: '0xdf5d2b7aef3508942876d836815e13d21b94a46b99b011107c89e83212d47a7d',
+    transactionIndex: 0,
+    blockNumber: 550,
+    blockHash: '0xf1cb4493124379bfb777c630082ebe21bceced1d450da2d4818e64e1164e549b',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:89:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:97:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:105:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:113:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:121:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:129:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:137:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:145:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:153:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:161:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:169:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:177:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:185:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:193:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:201:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:209:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:217:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+28
+{
+  tx: '0x6d9eb1c5842e2406e126ab76fc685a77db925c91502591fb9a8d09322b32a900',
+  receipt: {
+    transactionHash: '0x6d9eb1c5842e2406e126ab76fc685a77db925c91502591fb9a8d09322b32a900',
+    transactionIndex: 0,
+    blockNumber: 551,
+    blockHash: '0x6b4ea25cb0adb27202c0cd0a8f80796be264727d730ec06c8c824cce97d962be',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+29
+{
+  tx: '0xf79fa25988f435d516feafc031baac0d6c47393555fdf290c49efdb9d123cf50',
+  receipt: {
+    transactionHash: '0xf79fa25988f435d516feafc031baac0d6c47393555fdf290c49efdb9d123cf50',
+    transactionIndex: 0,
+    blockNumber: 552,
+    blockHash: '0x71ca648cf1c4fab9d3397b8fbf9a22ed41f80692277fd5000b1b69d5731187f2',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:241:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:249:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:257:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:265:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:273:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:281:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:289:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:297:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:305:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:313:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x1C65557B72804569BcD25cE53575A9C712e2Eff5/Play2LivePromotest.js:321:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_investor',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_investor", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+41
+{
+  tx: '0xca73dfc60fce1af950e31e4bcf0fd807dbf91a51decb34877b5efffb6d500702',
+  receipt: {
+    transactionHash: '0xca73dfc60fce1af950e31e4bcf0fd807dbf91a51decb34877b5efffb6d500702',
+    transactionIndex: 0,
+    blockNumber: 553,
+    blockHash: '0x1c6859baa071692c854da89d4c3d4011aef2a858d917bba0b65c6792fb977907',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28521,
+    gasUsed: 28521,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: []
+}

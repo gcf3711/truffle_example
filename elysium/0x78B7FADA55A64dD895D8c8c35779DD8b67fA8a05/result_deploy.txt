@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'ATL'
+   ---------------
+   > transaction hash:    0x69f37ca2e7c0ccfe3205a4ee33c785d6880e1e4a07e1500742b2e4bbac951946
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xD8B0ac6725517058D861085507A4DBa91cef3161
+   > block number:        25
+   > block timestamp:     1686053004
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.983253489546437795
+   > gas used:            639943 (0x9c3c7)
+   > gas price:           2.535497795 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001622574065425685 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001622574065425685 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001622574065425685 ETH
+
+

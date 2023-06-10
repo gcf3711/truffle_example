@@ -1,0 +1,4 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,980415,980414 (100%),0 Ether ($0.00) ,constructor,[]
+1,193799,146535 (75.61%),0.0003 Ether  ($0.54) ,Transfer,"[['', ' 0xb5d39a8ea30005f9114bf936025de2d6f353813e'], ['', ' 0x00a591199f53907480e1f5a00958b93b43200fe4'], ['', ' 0x0d19c131400e73c71bbb2bc1666dba8fe22d242d']]"
+2,51757,51757 (100%),0 Ether ($0.00) ,transfer,"[['address', '0x64008074930FDAF8252A92Efa36aC71EbA08204a'], ['uint256', '500000000000000000']]"

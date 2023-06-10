@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'EBU'
+   ---------------
+   > transaction hash:    0xc1464304b4ddb628bfab7c442e27339c7f352bbf55c95bcaa09854a4f4287b96
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x8231bb83545380390B9b5ff9692DFeb7D1Ff998f
+   > block number:        1169
+   > block timestamp:     1683880978
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.749678528191871192
+   > gas used:            198891 (0x308eb)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000497227501591128 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000497227501591128 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000497227501591128 ETH
+
+

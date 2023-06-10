@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'GFCB'
+   ----------------
+   > transaction hash:    0x7a99e6d92ce90616a1429cc0708cd93169ccb6239e52439bb879d02b7b2393d0
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4135B98d89a94770f2F8A70958D7570f3A84FC3c
+   > block number:        489
+   > block timestamp:     1683879772
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.8400962184812078
+   > gas used:            728507 (0xb1dbb)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001821267505828056 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001821267505828056 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001821267505828056 ETH
+
+

@@ -1,0 +1,271 @@
+Using network 'develop'.
+
+1
+{
+  tx: '0x597c5185f1929d0d449ec365ea5a2732d0b2741525784329cd454becb0bac222',
+  receipt: {
+    transactionHash: '0x597c5185f1929d0d449ec365ea5a2732d0b2741525784329cd454becb0bac222',
+    transactionIndex: 0,
+    blockNumber: 2,
+    blockHash: '0x85eb44d9ee8fb8173c2b5115c707799797781d3e2b77ec037e222b3d57293473',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 56545,
+    gasUsed: 56545,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000008000000000001000000000000000000000000000000000000000000000000000000000000000000004000004000000000000000000000000002000000000000000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3315461175,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x85eb44d9ee8fb8173c2b5115c707799797781d3e2b77ec037e222b3d57293473',
+      blockNumber: 2,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x597c5185f1929d0d449ec365ea5a2732d0b2741525784329cd454becb0bac222',
+      transactionIndex: 0,
+      id: 'log_8558213c',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+2
+{
+  tx: '0xc402a750ffb03f71c4dd89427322c1a666e496b2ab56fb5f513a74b02344cf3d',
+  receipt: {
+    transactionHash: '0xc402a750ffb03f71c4dd89427322c1a666e496b2ab56fb5f513a74b02344cf3d',
+    transactionIndex: 0,
+    blockNumber: 3,
+    blockHash: '0xa71153b091d8f666bbef9da05fc2c5710a005b63d1ca1387232845c897eb54b6',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 39445,
+    gasUsed: 39445,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000008000000000001000000000000000000000000000000000000000000000000000000000000000000004000004000000000000000000000000002000000000000000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3215243436,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xa71153b091d8f666bbef9da05fc2c5710a005b63d1ca1387232845c897eb54b6',
+      blockNumber: 3,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0xc402a750ffb03f71c4dd89427322c1a666e496b2ab56fb5f513a74b02344cf3d',
+      transactionIndex: 0,
+      id: 'log_93849e95',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+3
+{
+  tx: '0x669574e9b25b0313789b2b727a193e8ad24e1f34fa8efe3ca1d0928fa7064e76',
+  receipt: {
+    transactionHash: '0x669574e9b25b0313789b2b727a193e8ad24e1f34fa8efe3ca1d0928fa7064e76',
+    transactionIndex: 0,
+    blockNumber: 4,
+    blockHash: '0x23f42962bc2d9b0e3dcd47211e189320510f283e84901e5134b28d14ac2986a9',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 39457,
+    gasUsed: 39457,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000008000000000001000000000000000000000000000000000000000000000000000000000000000000004000004000000000000000000000000002000000000000000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3126887281,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x23f42962bc2d9b0e3dcd47211e189320510f283e84901e5134b28d14ac2986a9',
+      blockNumber: 4,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x669574e9b25b0313789b2b727a193e8ad24e1f34fa8efe3ca1d0928fa7064e76',
+      transactionIndex: 0,
+      id: 'log_7cb73544',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+4
+{
+  tx: '0x791f3532a996b80e9e5b125f9a31cac57faa68c30436bd7922d753a533c52aac',
+  receipt: {
+    transactionHash: '0x791f3532a996b80e9e5b125f9a31cac57faa68c30436bd7922d753a533c52aac',
+    transactionIndex: 0,
+    blockNumber: 5,
+    blockHash: '0xcdaa095401be0873285337dcb3e341f68382ed9d56972096c4245e8cdf9e3fe6',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 39457,
+    gasUsed: 39457,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000008000000000001000000000000000000000000000000000000000000000000000000000000000000004000004000000000000000000000000002000000000000000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3049446305,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xcdaa095401be0873285337dcb3e341f68382ed9d56972096c4245e8cdf9e3fe6',
+      blockNumber: 5,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x791f3532a996b80e9e5b125f9a31cac57faa68c30436bd7922d753a533c52aac',
+      transactionIndex: 0,
+      id: 'log_68ff76ea',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+5
+{
+  tx: '0x09065c5391464e78873cb6bc93dda04ca7dd55d7690b93a509cbcf76f6ceb061',
+  receipt: {
+    transactionHash: '0x09065c5391464e78873cb6bc93dda04ca7dd55d7690b93a509cbcf76f6ceb061',
+    transactionIndex: 0,
+    blockNumber: 6,
+    blockHash: '0xd5065d9734d3d6a22b94c93eb5cc5f5e657e92f06b8d7f4f6a573b99554527ae',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 56545,
+    gasUsed: 56545,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002001000000010000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2981571810,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xd5065d9734d3d6a22b94c93eb5cc5f5e657e92f06b8d7f4f6a573b99554527ae',
+      blockNumber: 6,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x09065c5391464e78873cb6bc93dda04ca7dd55d7690b93a509cbcf76f6ceb061',
+      transactionIndex: 0,
+      id: 'log_df873a3f',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+6
+{
+  tx: '0x852c2289cc0cd7603aedbfd4f93a889a2e269cb78bd48334fc82359b6d335eef',
+  receipt: {
+    transactionHash: '0x852c2289cc0cd7603aedbfd4f93a889a2e269cb78bd48334fc82359b6d335eef',
+    transactionIndex: 0,
+    blockNumber: 7,
+    blockHash: '0x9b05165ec02d893cc71c72e85a48e4b52cc575c0fc576eb2ea9a16d3fc9c8260',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 39445,
+    gasUsed: 39445,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002001000000010000000000000000000000000000000080000000000200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2922388075,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x9b05165ec02d893cc71c72e85a48e4b52cc575c0fc576eb2ea9a16d3fc9c8260',
+      blockNumber: 7,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x852c2289cc0cd7603aedbfd4f93a889a2e269cb78bd48334fc82359b6d335eef',
+      transactionIndex: 0,
+      id: 'log_41906989',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+7
+{
+  tx: '0xc7e8f48ecc48aac4ce0e1dc10c365c3037e7a807fb32cf30060e21c3725654c7',
+  receipt: {
+    transactionHash: '0xc7e8f48ecc48aac4ce0e1dc10c365c3037e7a807fb32cf30060e21c3725654c7',
+    transactionIndex: 0,
+    blockNumber: 8,
+    blockHash: '0xd27da807d5679dd5dd8258660333e35e8ae0d8e6d46ae995708eef3c49e8eee4',
+    from: '0xd34528df0d48457dfa62fa530f20713e621dae16',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 56545,
+    gasUsed: 56545,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000040000000010000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002001000000010000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2870209217,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xd27da807d5679dd5dd8258660333e35e8ae0d8e6d46ae995708eef3c49e8eee4',
+      blockNumber: 8,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0xc7e8f48ecc48aac4ce0e1dc10c365c3037e7a807fb32cf30060e21c3725654c7',
+      transactionIndex: 0,
+      id: 'log_0954b348',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: VM Exception while processing transaction: revert 2 -- Reason given: 2.
+    at module.exports (/workdir/truffle_example/before/0x7241d179d92E86237bB460f8A19FAE369a8846a3/CGCTokentest.js:65:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 5264,
+    result: '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000013200000000000000000000000000000000000000000000000000000000000000',
+    reason: '2',
+    message: 'revert'
+  },
+  reason: '2',
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert 2 -- Reason given: 2.\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}

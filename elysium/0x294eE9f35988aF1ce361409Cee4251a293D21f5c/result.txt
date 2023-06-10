@@ -1,0 +1,382 @@
+Using network 'develop'.
+
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:9:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_to',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+2
+{
+  tx: '0xfdf27f3b51109fbebaf4362173e7f46fc4127c5b1f316aef9518b5f12dede0b4',
+  receipt: {
+    transactionHash: '0xfdf27f3b51109fbebaf4362173e7f46fc4127c5b1f316aef9518b5f12dede0b4',
+    transactionIndex: 0,
+    blockNumber: 1194,
+    blockHash: '0x9a5088de36dd7cfe232390953dcada46cda08467da344def8ec241dde8b61886',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 27161,
+    gasUsed: 27161,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+3
+{
+  tx: '0xe4680af8c530e39ad94e1f70c600541663bd077cf6d473d8dddaf1382e4f9690',
+  receipt: {
+    transactionHash: '0xe4680af8c530e39ad94e1f70c600541663bd077cf6d473d8dddaf1382e4f9690',
+    transactionIndex: 0,
+    blockNumber: 1195,
+    blockHash: '0x7b811b6d710a2ed874a22afd85e6c24071342b52101b0123ea28b7dec085ffa5',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 24361,
+    gasUsed: 24361,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+4
+{
+  tx: '0x284759641a245966919faab44439d2919ab492a1dccac781ff05d5b43aca428f',
+  receipt: {
+    transactionHash: '0x284759641a245966919faab44439d2919ab492a1dccac781ff05d5b43aca428f',
+    transactionIndex: 0,
+    blockNumber: 1196,
+    blockHash: '0x1e9d2471a303f3e83b1f35fc88ef7b05c1eef2b42004275a0485e85cd0a23044',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 27173,
+    gasUsed: 27173,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:41:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_spender',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:49:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_spender',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:57:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:65:34) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_spender',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:73:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_spender',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_spender", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:81:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:89:35) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:97:35) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_to',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:105:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:113:35) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:121:35) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_to',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.6.1) (argument="_to", value=undefined, code=INVALID_ARGUMENT, version=abi/5.6.4)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at AddressCoder._throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js:38:15)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/address.js:17:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/elysium/0x294eE9f35988aF1ce361409Cee4251a293D21f5c/MyAdvancedTokentest.js:129:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 2507,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}

@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'keepMyEther'
+   -----------------------
+   > transaction hash:    0x8a41e32b1e06c964883f8e031f21bd1900e7a1a3d284aca853ceea1d11b531a3
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x04715A5118affD214b2B6B0FeB81214aAe4A5d62
+   > block number:        175
+   > block timestamp:     1683879340
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.866515626065749904
+   > gas used:            133383 (0x20907)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000333457501067064 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000333457501067064 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000333457501067064 ETH
+
+

@@ -1,0 +1,5 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,365507,365507 (100%),0 Ether ($0.00) ,0x60806040,[]
+1,41277,41277 (100%),0.01 Ether  ($17.78) ,Transfer,[]
+2,35752,35752 (100%),0 Ether ($0.00) ,sendMoney,"[['address', '0x4A5Fc826441A16B86aA850B3DDC4b1Bc02f21b6C'], ['uint256', '10000000000000000'], ['bytes', ''], ['', ' 0x4a5fc826441a16b86aa850b3ddc4b1bc02f21b6c']]"
+3,32182,29938 (93.03%),0 Ether ($0.00) ,withdrawAll,"[['', '0x370145a0b605911ff98699909b29f7faf86ffc1f']]"

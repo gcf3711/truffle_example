@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'WhaleGiveaway1'
+   --------------------------
+   > transaction hash:    0xb72aa3e686cff836054cf018348af461e922e113bd8b6e8633502d2b37cf12a6
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xc6C3acA61CaBcE2aECbd1Fcb31faCFEFc49B7DC1
+   > block number:        601
+   > block timestamp:     1683880094
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.814657900899805184
+   > gas used:            266791 (0x41227)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000666977502134328 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000666977502134328 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000666977502134328 ETH
+
+

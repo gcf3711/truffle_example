@@ -1,0 +1,7 @@
+Using network 'develop'.
+
+Error: tokensale has not been deployed to detected network (network/artifact mismatch)
+    at Object.checkNetworkArtifactMatch (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/utils/index.js:256:1)
+    at Function.deployed (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/constructorMethods.js:83:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at module.exports (/workdir/truffle_example/after/0x6994699c731dd7e389c209201ec51e8aff283bf9/tokensaletest.js:6:16)

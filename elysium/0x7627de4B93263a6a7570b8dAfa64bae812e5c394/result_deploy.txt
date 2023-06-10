@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'NexxusToken'
+   -----------------------
+   > transaction hash:    0x44e6be27759f0ad5aff87b3b7f69f8fe820cfc20994116c53a84deebb964b6ea
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x75D39810c0f88FdEF9D94d1C0a3Db253f7B3Ff59
+   > block number:        1201
+   > block timestamp:     1683881078
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.738217498155195896
+   > gas used:            745579 (0xb606b)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001863947505964632 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001863947505964632 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001863947505964632 ETH
+
+

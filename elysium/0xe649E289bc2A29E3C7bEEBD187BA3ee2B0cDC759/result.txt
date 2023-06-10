@@ -1,0 +1,483 @@
+Using network 'develop'.
+
+1
+{
+  tx: '0xb2f83293e6991e98ea6bd196257c8f2916d8405ed5e1947d7535993c6ba304ee',
+  receipt: {
+    transactionHash: '0xb2f83293e6991e98ea6bd196257c8f2916d8405ed5e1947d7535993c6ba304ee',
+    transactionIndex: 0,
+    blockNumber: 1000,
+    blockHash: '0xd4181a7f4e27a36e97ec85251f91c2cf098b19bf997bf486e3c4b3c4d7672e96',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 35394,
+    gasUsed: 35394,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000000000000000000000000000000000000000080000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000004000000000000000000000000002000000000000000000000000000000000000000000080000000000200000000000000000400000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xd4181a7f4e27a36e97ec85251f91c2cf098b19bf997bf486e3c4b3c4d7672e96',
+      blockNumber: 1000,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0xb2f83293e6991e98ea6bd196257c8f2916d8405ed5e1947d7535993c6ba304ee',
+      transactionIndex: 0,
+      id: 'log_825984da',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:17:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:25:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+4
+{
+  tx: '0xd30d6f15b829f7e6e20eeaf824e7d80c28fe6ebaf9be2683f6b1aa467c6a070f',
+  receipt: {
+    transactionHash: '0xd30d6f15b829f7e6e20eeaf824e7d80c28fe6ebaf9be2683f6b1aa467c6a070f',
+    transactionIndex: 0,
+    blockNumber: 1001,
+    blockHash: '0x49989a78a52a6b12f62ad9056a1385e00acd0523f7a5b3edd9dd167663a761ab',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x49989a78a52a6b12f62ad9056a1385e00acd0523f7a5b3edd9dd167663a761ab',
+      blockNumber: 1001,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0xd30d6f15b829f7e6e20eeaf824e7d80c28fe6ebaf9be2683f6b1aa467c6a070f',
+      transactionIndex: 0,
+      id: 'log_c4c85ff3',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+5
+{
+  tx: '0x10e6e8009a6ef70b7cc1a476bc17100b73e51c18ad46bb3fc340fb73fddcc146',
+  receipt: {
+    transactionHash: '0x10e6e8009a6ef70b7cc1a476bc17100b73e51c18ad46bb3fc340fb73fddcc146',
+    transactionIndex: 0,
+    blockNumber: 1002,
+    blockHash: '0xea45132e3a8f98364cc4acc980bca64e73a25973b48753910d9238654691c614',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xea45132e3a8f98364cc4acc980bca64e73a25973b48753910d9238654691c614',
+      blockNumber: 1002,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x10e6e8009a6ef70b7cc1a476bc17100b73e51c18ad46bb3fc340fb73fddcc146',
+      transactionIndex: 0,
+      id: 'log_78c531d3',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:49:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+7
+{
+  tx: '0x7954ba23e463de182fe1c906015dcf48be94ee6528201bbf6f6823638fcbbbbb',
+  receipt: {
+    transactionHash: '0x7954ba23e463de182fe1c906015dcf48be94ee6528201bbf6f6823638fcbbbbb',
+    transactionIndex: 0,
+    blockNumber: 1003,
+    blockHash: '0xb8da9afaf2f61c28ed77c2ec11678a139fe2edd406518b000fa31b9207057c77',
+    from: '0xe1514bf54d41c2cf46b1e4d6e70fb67cb5a175be',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000040000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000400000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xb8da9afaf2f61c28ed77c2ec11678a139fe2edd406518b000fa31b9207057c77',
+      blockNumber: 1003,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x7954ba23e463de182fe1c906015dcf48be94ee6528201bbf6f6823638fcbbbbb',
+      transactionIndex: 0,
+      id: 'log_a06a3d1e',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:65:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:73:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+10
+{
+  tx: '0xd177f71719b0748ff785507e4ea9a828a9aae1c90698d7181f7226afae51d9a3',
+  receipt: {
+    transactionHash: '0xd177f71719b0748ff785507e4ea9a828a9aae1c90698d7181f7226afae51d9a3',
+    transactionIndex: 0,
+    blockNumber: 1004,
+    blockHash: '0xa1ef5859483af39b3234d46b03d6263cc0600f0df9720c4356868f5cc7bbeead',
+    from: '0xe1514bf54d41c2cf46b1e4d6e70fb67cb5a175be',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000040000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000400000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xa1ef5859483af39b3234d46b03d6263cc0600f0df9720c4356868f5cc7bbeead',
+      blockNumber: 1004,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0xd177f71719b0748ff785507e4ea9a828a9aae1c90698d7181f7226afae51d9a3',
+      transactionIndex: 0,
+      id: 'log_bd3d02e8',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:89:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+12
+{
+  tx: '0x5e07231a71eefd0dbb739e744ff24b2fd7ede76904d47d50da98fb49997fd1ca',
+  receipt: {
+    transactionHash: '0x5e07231a71eefd0dbb739e744ff24b2fd7ede76904d47d50da98fb49997fd1ca',
+    transactionIndex: 0,
+    blockNumber: 1005,
+    blockHash: '0x515ec51f177fab54f5ce53580d1b5387b97487fbe439308f9af16697ea87c7c9',
+    from: '0xe1514bf54d41c2cf46b1e4d6e70fb67cb5a175be',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000040000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000400000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x515ec51f177fab54f5ce53580d1b5387b97487fbe439308f9af16697ea87c7c9',
+      blockNumber: 1005,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x5e07231a71eefd0dbb739e744ff24b2fd7ede76904d47d50da98fb49997fd1ca',
+      transactionIndex: 0,
+      id: 'log_e022f343',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:105:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+14
+{
+  tx: '0x7485eb24ecb1238a6819e5527615ae38ce89bfeeda14037cf0f46d6c48f54f5d',
+  receipt: {
+    transactionHash: '0x7485eb24ecb1238a6819e5527615ae38ce89bfeeda14037cf0f46d6c48f54f5d',
+    transactionIndex: 0,
+    blockNumber: 1006,
+    blockHash: '0x3755673a9297baf4f50f23323b6fc118c7ab25bbeefd5cbfc1939709f2bbc1ea',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28729,
+    gasUsed: 28729,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x3755673a9297baf4f50f23323b6fc118c7ab25bbeefd5cbfc1939709f2bbc1ea',
+      blockNumber: 1006,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x7485eb24ecb1238a6819e5527615ae38ce89bfeeda14037cf0f46d6c48f54f5d',
+      transactionIndex: 0,
+      id: 'log_f4b41765',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+15
+{
+  tx: '0x42e4b06916517e5ab6893642920189586fffac53629bde6c0a1a23a3de5c4df6',
+  receipt: {
+    transactionHash: '0x42e4b06916517e5ab6893642920189586fffac53629bde6c0a1a23a3de5c4df6',
+    transactionIndex: 0,
+    blockNumber: 1007,
+    blockHash: '0x7c9984c850c33daaf81197dcb94c9e32034f690d8b79ef4da0992750a7847e47',
+    from: '0xe1514bf54d41c2cf46b1e4d6e70fb67cb5a175be',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28293,
+    gasUsed: 28293,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000040000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000400000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0x7c9984c850c33daaf81197dcb94c9e32034f690d8b79ef4da0992750a7847e47',
+      blockNumber: 1007,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x42e4b06916517e5ab6893642920189586fffac53629bde6c0a1a23a3de5c4df6',
+      transactionIndex: 0,
+      id: 'log_d730ce05',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}
+Error: Returned error: insufficient funds for gas * price + value
+    at module.exports (/workdir/truffle_example/elysium/0xe649E289bc2A29E3C7bEEBD187BA3ee2B0cDC759/JiucaiTokentest.js:129:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: null,
+  hijackedStack: 'Error: Returned error: insufficient funds for gas * price + value\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+17
+{
+  transactionHash: '0x88ab7242addbd3302fdde7c6aa7349a0c73eab7cc69458e1c9b8daf8c24a0edc',
+  transactionIndex: 0,
+  blockNumber: 1008,
+  blockHash: '0xa16858181948cc5c756783be4a18129dfd574171dc4989d17fb1d5de96e2630a',
+  from: '0x63283aa89242d505d2de71b27bfb54e634846967',
+  to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+  cumulativeGasUsed: 27761,
+  gasUsed: 27761,
+  contractAddress: null,
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xa16858181948cc5c756783be4a18129dfd574171dc4989d17fb1d5de96e2630a',
+      blockNumber: 1008,
+      data: '0x0000000000000000000000000000000000000000000000000000000000000000',
+      logIndex: 0,
+      removed: false,
+      topics: [Array],
+      transactionHash: '0x88ab7242addbd3302fdde7c6aa7349a0c73eab7cc69458e1c9b8daf8c24a0edc',
+      transactionIndex: 0,
+      id: 'log_361290af'
+    }
+  ],
+  logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000008000000000001000000000000000000000000000000000000000000000000000000000000000000004000004000000000000000000000000002000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000',
+  status: true,
+  effectiveGasPrice: 2500000008,
+  type: '0x2'
+}
+18
+{
+  tx: '0x0563a3954da29717bc230c8cb49987659c9d29ac7aee002ff50c9f0f3f95b022',
+  receipt: {
+    transactionHash: '0x0563a3954da29717bc230c8cb49987659c9d29ac7aee002ff50c9f0f3f95b022',
+    transactionIndex: 0,
+    blockNumber: 1009,
+    blockHash: '0xac6b6e2d8430333188d8a140acda2e0066785fff37f864a446cd67ccf29143c1',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 28153,
+    gasUsed: 28153,
+    contractAddress: null,
+    logs: [ [Object] ],
+    logsBloom: '0x00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000008000000000000000000000000000000000020000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000002000000000000000000000000000000000000000000080000000020200000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 2500000008,
+    type: '0x2',
+    rawLogs: [ [Object] ]
+  },
+  logs: [
+    {
+      address: '0x4A8BC8e14d6E07943306F2dD3dfCC7979CAF4461',
+      blockHash: '0xac6b6e2d8430333188d8a140acda2e0066785fff37f864a446cd67ccf29143c1',
+      blockNumber: 1009,
+      logIndex: 0,
+      removed: false,
+      transactionHash: '0x0563a3954da29717bc230c8cb49987659c9d29ac7aee002ff50c9f0f3f95b022',
+      transactionIndex: 0,
+      id: 'log_830a5023',
+      event: 'Transfer',
+      args: [Result]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,485827,404856 (83.33%),0 Ether ($0.00) ,constructor,[]
+1,25248,21040 (83.33%),"1.0777777777777777 Ether  ($1,935.62) ",Transfer,[]
+2,47740,30771 (64.46%),"1.1 Ether  ($1,975.53) ",GetFreebie,"[['', ' 0x0c76802158f13aba9d892ee066233827424c5aab']]"

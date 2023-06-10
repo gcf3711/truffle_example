@@ -1,0 +1,37 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,4700000,1158172 (24.64%),0 Ether ($0.00) ,constructor,[]
+1,90000,43584 (48.43%),0 Ether ($0.00) ,changeTokenContract,"[['address', '0x824BC5ab53f9e58592703483FDBc8A7C954Bf635']]"
+2,4800000,99820 (2.08%),0.01 Ether  ($17.99) ,Transfer,"[['', '0x5ce678be89f07a44fa96fc0b9405d5e927fc0df5']]"
+3,90000,54992 (61.1%),0 Ether ($0.00) ,extraMint,"[['uint256', '10000000000000000000000000']]"
+4,90000,28584 (31.76%),0 Ether ($0.00) ,changeTokenContract,"[['address', '0x6d71C77415A6628a0d29404b20F91a1b011a9B6c']]"
+5,90000,28584 (31.76%),0 Ether ($0.00) ,changeTokenContract,"[['address', '0x824BC5ab53f9e58592703483FDBc8A7C954Bf635']]"
+6,90000,28738 (31.93%),0 Ether ($0.00) ,changeWalletAddress,"[['address', '0x6d71C77415A6628a0d29404b20F91a1b011a9B6c']]"
+7,90000,54928 (61.03%),0 Ether ($0.00) ,extraMint,"[['uint256', '1000000000000000000000000']]"
+8,260000,94820 (36.47%),"1 Ether  ($1,796.95) ",Transfer,"[['', ' 0x6d71c77415a6628a0d29404b20f91a1b011a9b6c']]"
+9,72065,69820 (96.88%),0.1 Ether  ($179.70) ,Transfer,"[['', ' 0x6d71c77415a6628a0d29404b20f91a1b011a9b6c']]"
+10,25200,25200 (100%),0.1195 Ether  ($214.74)  -  [CANCELLED]  ,Transfer,[]
+11,25200,25200 (100%),0.1 Ether  ($179.70)  -  [CANCELLED]  ,Transfer,[]
+12,25200,25200 (100%),0.1 Ether  ($179.70)  -  [CANCELLED]  ,Transfer,[]
+13,25200,25200 (100%),"1 Ether  ($1,796.95)  -  [CANCELLED]  ",Transfer,[]
+14,72065,69820 (96.88%),"1 Ether  ($1,796.95) ",Transfer,"[['', ' 0x6d71c77415a6628a0d29404b20f91a1b011a9b6c']]"
+15,90000,54992 (61.1%),0 Ether ($0.00) ,extraMint,"[['uint256', '40000000000000000000000000']]"
+16,172065,69820 (40.58%),0.105436295390325166 Ether  ($189.20) ,Transfer,"[['', ' 0x6d71c77415a6628a0d29404b20f91a1b011a9b6c']]"
+17,157065,54820 (34.9%),"2.108725907806503311 Ether  ($3,783.98) ",Transfer,"[['', ' 0x6d71c77415a6628a0d29404b20f91a1b011a9b6c']]"
+18,21000,21000 (100%),"1 Ether  ($1,794.44)  -  [CANCELLED]  ",Transfer,[]
+19,500000,22249 (4.45%),0.45 Ether  ($807.50)  -  [CANCELLED],Transfer,[]
+20,250000,22249 (8.9%),0.1 Ether  ($179.44)  -  [CANCELLED],Transfer,[]
+21,250000,22249 (8.9%),0.01 Ether  ($17.94)  -  [CANCELLED],Transfer,[]
+22,21000,21000 (100%),0.05 Ether  ($89.72)  -  [CANCELLED]  ,Transfer,[]
+23,21000,21000 (100%),"1.3501 Ether  ($2,422.67)  -  [CANCELLED]  ",Transfer,[]
+24,21000,21000 (100%),"1.35 Ether  ($2,422.49)  -  [CANCELLED]  ",Transfer,[]
+25,21000,21000 (100%),"1.35 Ether  ($2,422.49)  -  [CANCELLED]  ",Transfer,[]
+26,250000,22249 (8.9%),"1.352 Ether  ($2,425.35)  -  [CANCELLED]",Transfer,[]
+27,21000,21000 (100%),0.14 Ether  ($251.15)  -  [CANCELLED]  ,Transfer,[]
+28,21000,21000 (100%),"1.998887 Ether  ($3,585.80)  -  [CANCELLED]  ",Transfer,[]
+29,21000,21000 (100%),0.024 Ether  ($43.05)  -  [CANCELLED]  ,Transfer,[]
+30,21000,21000 (100%),0.024 Ether  ($43.05)  -  [CANCELLED]  ,Transfer,[]
+31,42000,22249 (52.97%),0.024 Ether  ($43.05)  -  [CANCELLED],Transfer,[]
+32,42000,22249 (52.97%),0.024 Ether  ($43.05)  -  [CANCELLED],Transfer,[]
+33,42000,22249 (52.97%),0.024 Ether  ($43.05)  -  [CANCELLED],Transfer,[]
+34,21000,21000 (100%),0.015 Ether  ($26.91)  -  [CANCELLED]  ,Transfer,[]
+35,25200,22249 (88.29%),0.0155 Ether  ($27.81)  -  [CANCELLED],Transfer,[]

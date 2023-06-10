@@ -1,0 +1,119 @@
+Using network 'develop'.
+
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4/PrivateBanktest.js:9:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 1135,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4/PrivateBanktest.js:17:34) {
+  data: {
+    hash: null,
+    programCounter: 1135,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+Error: invalid BigNumber value (argument="value", value={"from":"0x645e6b40eb81Be39D35548E9539bfee4cD05Caa0","value":"0"}, code=INVALID_ARGUMENT, version=bignumber/5.6.2)
+    at module.exports (/workdir/truffle_example/before/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4/PrivateBanktest.js:25:34) {
+  reason: 'invalid BigNumber value',
+  code: 'INVALID_ARGUMENT',
+  argument: 'value',
+  value: { from: '0x645e6b40eb81Be39D35548E9539bfee4cD05Caa0', value: '0' },
+  hijackedStack: 'Error: invalid BigNumber value (argument="value", value={"from":"0x645e6b40eb81Be39D35548E9539bfee4cD05Caa0","value":"0"}, code=INVALID_ARGUMENT, version=bignumber/5.6.2)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at Function.from (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/bignumber/lib.esm/bignumber.js:233:22)\n' +
+    '    at NumberCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/number.js:16:17)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:57:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/before/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4/PrivateBanktest.js:33:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  data: {
+    hash: null,
+    programCounter: 765,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}
+5
+{
+  tx: '0x9ebe3f1e56823255bc3fad2fe1fd8307b3c50e3c6ffe392473b1cdb2eff24182',
+  receipt: {
+    transactionHash: '0x9ebe3f1e56823255bc3fad2fe1fd8307b3c50e3c6ffe392473b1cdb2eff24182',
+    transactionIndex: 0,
+    blockNumber: 2,
+    blockHash: '0x1ca6e86db0856cf27948ca0d375bcb36f0c87a65164a976b989c3fd888b3b2a8',
+    from: '0x645e6b40eb81be39d35548e9539bfee4cd05caa0',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 23657,
+    gasUsed: 23657,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3277292797,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}

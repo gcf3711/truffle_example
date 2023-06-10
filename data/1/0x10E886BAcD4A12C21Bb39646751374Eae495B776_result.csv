@@ -1,0 +1,13 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,3201465,3101464 (96.88%),0 Ether ($0.00) ,constructor,[]
+1,30046,29045 (96.67%),0 Ether ($0.00) ,transfekbolOwnership,"[['address', '0x333728A537cB349976Adc1574fb4BA0Ff41ce536']]"
+2,68778,68777 (100%),0 Ether ($0.00) ,mintlvlToken,"[['address', '0x333728A537cB349976Adc1574fb4BA0Ff41ce536'], ['uint256', '204800000000000000000']]"
+3,43363,43362 (100%),0 Ether ($0.00) ,setlvlSign,"[['string', 'k']]"
+4,44679,44678 (100%),0 Ether ($0.00) ,setlvlWebsite,"[['string', 'https://www.plutocracy.co']]"
+5,42853,42852 (100%),0 Ether ($0.00) ,setlvlNfee,"[['uint256', '5438177127']]"
+6,45157,45156 (100%),0 Ether ($0.00) ,setlvlUpdate,"[['string', 'Krown Crowdsale Coming Soon.']]"
+7,52706,52706 (100%),0 Ether ($0.00) ,transfer,"[['address', '0xE6749a39d524427A5a90Bc255AcFF7055c280C96'], ['uint256', '102400000000000000000']]"
+8,44128,44128 (100%),0 Ether ($0.00) ,setlvlNominalValue,"[['string', '0.10038980 USD']]"
+9,137322,37578 (27.36%),0 Ether ($0.00) ,transfer,"[['address', '0x333728A537cB349976Adc1574fb4BA0Ff41ce536'], ['uint256', '500000000000']]"
+10,37578,37578 (100%),0 Ether ($0.00) ,transfer,"[['address', '0xE6749a39d524427A5a90Bc255AcFF7055c280C96'], ['uint256', '500000000000']]"
+11,45055,45055 (100%),0 Ether ($0.00) ,notifyAuthority,"[['string', 'First Authority Notification.'], ['string', '0x0000000000000000000000000000000000000000000000000000000000000000']]"

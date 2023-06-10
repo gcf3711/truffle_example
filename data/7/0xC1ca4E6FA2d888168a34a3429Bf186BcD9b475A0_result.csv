@@ -1,0 +1,3 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,1280012,1280012 (100%),0 Ether ($0.00) ,0x60806040,[]
+1,51280,36280 (70.75%),0 Ether ($0.00) ,transfer,"[['address', '0x2EDD17e192Ed266CA075486198edA18940b5f45A'], ['uint256', '1000000000']]"

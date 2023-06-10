@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'DimonCoin'
+   ---------------------
+   > transaction hash:    0x899214e42178f43ce8ffbfb284ead9c4a52e568b0b2ee949158225a892fce37a
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9A7bB2b86Db52421670F60D3Ea2100F9dC914063
+   > block number:        532
+   > block timestamp:     1683879931
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.827915608442229848
+   > gas used:            682964 (0xa6bd4)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001707410005463712 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001707410005463712 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001707410005463712 ETH
+
+

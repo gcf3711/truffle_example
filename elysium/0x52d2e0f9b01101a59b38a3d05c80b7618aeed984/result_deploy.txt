@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'EtherGet'
+   --------------------
+   > transaction hash:    0xfb30c8df596672b880648d05af0af6e65e580573bd4a93f21238d7de3c59d667
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xa8a56c66e744B50b2BB02E7aE5e39a0eAc4D193B
+   > block number:        177
+   > block timestamp:     1683879349
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.86585524356363668
+   > gas used:            236000 (0x399e0)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000590000001888 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000590000001888 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000590000001888 ETH
+
+

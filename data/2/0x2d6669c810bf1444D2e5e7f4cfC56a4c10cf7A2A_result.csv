@@ -1,0 +1,3 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,1523739,1423738 (93.44%),0 Ether ($0.00) ,constructor,[]
+1,145446,45445 (31.25%),0 Ether ($0.00) ,setMintAgent,"[['address', '0xECFBC0c5BC5cf4A266C1A90dB0a4fe79C82BCd93'], ['bool', 'true']]"

@@ -1,0 +1,63 @@
+Using network 'develop'.
+
+Error: Transaction has been reverted by the EVM:
+{
+  "transactionHash": "0x588abe063acfadb801bccd3b2570e8b265f53891a803c0163c6967afbf24113d",
+  "transactionIndex": 0,
+  "blockNumber": 2,
+  "blockHash": "0x47705bb2617253ac8b2cb1146fd0cdc74e3d4af2356d3b010c835ea537192213",
+  "from": "0x645e6b40eb81be39d35548e9539bfee4cd05caa0",
+  "to": "0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461",
+  "cumulativeGasUsed": 90000,
+  "gasUsed": 90000,
+  "contractAddress": null,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "effectiveGasPrice": 3307007603,
+  "type": "0x2"
+}
+    at Object.TransactionError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:87:1)
+    at Object.TransactionRevertedWithoutReasonError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:98:1)
+    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-core-method/lib/index.js:396:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  receipt: {
+    transactionHash: '0x588abe063acfadb801bccd3b2570e8b265f53891a803c0163c6967afbf24113d',
+    transactionIndex: 0,
+    blockNumber: 2,
+    blockHash: '0x47705bb2617253ac8b2cb1146fd0cdc74e3d4af2356d3b010c835ea537192213',
+    from: '0x645e6b40eb81be39d35548e9539bfee4cd05caa0',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 90000,
+    gasUsed: 90000,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: false,
+    effectiveGasPrice: 3307007603,
+    type: '0x2'
+  }
+}
+Error: Returned error: VM Exception while processing transaction: revert
+    at module.exports (/workdir/truffle_example/CTest7/CTest7test.js:17:34) {
+  data: {
+    hash: null,
+    programCounter: 5121,
+    result: '0x',
+    reason: null,
+    message: 'revert'
+  },
+  reason: undefined,
+  hijackedStack: 'Error: Returned error: VM Exception while processing transaction: revert\n' +
+    '    at Object.ErrorResponse (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-helpers/lib/errors.js:28:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-core-requestmanager/lib/index.js:300:1\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/provider/wrapper.js:119:1\n' +
+    '    at XMLHttpRequest.request.onreadystatechange (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-providers-http/lib/index.js:98:1)\n' +
+    '    at XMLHttpRequestEventTarget.dispatchEvent (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)\n' +
+    '    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpResponseEnd (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:318:1)\n' +
+    '    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/xhr2-cookies/dist/xml-http-request.js:289:48)\n' +
+    '    at IncomingMessage.emit (node:events:539:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1345:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'
+}

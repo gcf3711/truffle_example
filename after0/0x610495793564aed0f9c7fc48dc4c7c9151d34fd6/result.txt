@@ -1,0 +1,66 @@
+Using network 'develop'.
+
+1
+{
+  transactionHash: '0x1e981592a59e70619a5c890c5d4489d1ceddd510f2713442fc79bcee0f1a5a49',
+  transactionIndex: 0,
+  blockNumber: 2,
+  blockHash: '0x33dad8aaa879d9191ea6fe6562cd49c607e114357b52e7f768d0e9ac54a79793',
+  from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+  to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+  cumulativeGasUsed: 43177,
+  gasUsed: 43177,
+  contractAddress: null,
+  logs: [],
+  logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+  status: true,
+  effectiveGasPrice: 3275830108,
+  type: '0x2'
+}
+Error: invalid arrayify value (argument="value", value="", code=INVALID_ARGUMENT, version=bytes/5.6.1)
+    at module.exports (/workdir/truffle_example/after/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6/SimpleWallettest.js:17:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'invalid arrayify value',
+  code: 'INVALID_ARGUMENT',
+  argument: 'value',
+  value: '',
+  hijackedStack: 'Error: invalid arrayify value (argument="value", value="", code=INVALID_ARGUMENT, version=bytes/5.6.1)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:219:1)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:228:1)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/logger/lib.esm/index.js:231:1)\n' +
+    '    at arrayify (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/@ethersproject/bytes/lib.esm/index.js:90:1)\n' +
+    '    at BytesCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/bytes.js:12:25)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:49:1\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/array.js:43:1)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js:51:16)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/node_modules/@ethersproject/abi/lib.esm/abi-coder.js:86:1)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth-abi/lib/index.js:127:1)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:462:1\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/truffle/build/webpack:/node_modules/web3-eth/node_modules/web3-eth-contract/lib/index.js:461:6)\n' +
+    '    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/execute.js:212:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}
+3
+{
+  tx: '0xf50ef5153f2f58a8c3629f80faee0a8bfca50ac7ce6a89544dee0e70a65d1cb1',
+  receipt: {
+    transactionHash: '0xf50ef5153f2f58a8c3629f80faee0a8bfca50ac7ce6a89544dee0e70a65d1cb1',
+    transactionIndex: 0,
+    blockNumber: 3,
+    blockHash: '0xe66f17d4402dbb0e5d7d8216633833375457573fd120420eac7e5345758dcac5',
+    from: '0x4e6de3f1e73b0219ebbdda39b807be71a64e965d',
+    to: '0x4a8bc8e14d6e07943306f2dd3dfcc7979caf4461',
+    cumulativeGasUsed: 30630,
+    gasUsed: 30630,
+    contractAddress: null,
+    logs: [],
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    status: true,
+    effectiveGasPrice: 3180097185,
+    type: '0x2',
+    rawLogs: []
+  },
+  logs: []
+}

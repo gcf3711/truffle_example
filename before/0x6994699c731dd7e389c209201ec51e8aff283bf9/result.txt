@@ -1,0 +1,19 @@
+Using network 'develop'.
+
+/workdir/truffle_example/0x6994699c731dd7e389c209201ec51e8aff283bf9/tokensaletest.js:137
+      result[17] = await instance.0x6709b337({from: accounts[6], value: web3.utils.toWei("0")})
+                                 ^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (node:vm:100:7)
+    at Object.createScript (node:vm:257:10)
+    at Object.file (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:93:1)
+    at Object.exec (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:121:1)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at bound exec (node:internal/util:346:12)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/exec/run.js:43:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0

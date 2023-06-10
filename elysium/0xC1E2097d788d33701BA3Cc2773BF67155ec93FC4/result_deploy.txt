@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'IADOWR'
+   ------------------
+   > transaction hash:    0xc645c11a18cd192c3c5e6b2f5b1fcb13f461f7216dde41a3c73758cccfa1fda9
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xDDAa3a9821D1998C16b7C74D759e16810a8f5d0C
+   > block number:        1215
+   > block timestamp:     1683881142
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.732381175636519664
+   > gas used:            1200722 (0x125252)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003001805009605776 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003001805009605776 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.003001805009605776 ETH
+
+

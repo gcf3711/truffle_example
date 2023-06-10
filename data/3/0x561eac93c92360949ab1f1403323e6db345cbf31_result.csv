@@ -1,0 +1,7 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,374693,312244 (83.33%),0 Ether ($0.00) ,constructor,[]
+1,52226,43522 (83.33%),0 Ether ($0.00) ,SetLogFile,"[['address', '0x0486cF65A2F2F3A392CBEa398AFB7F5f0B72FF46']]"
+2,50767,42306 (83.33%),0 Ether ($0.00) ,SetMinSum,"[['uint256', '1000000000000000000']]"
+3,32100,26750 (83.33%),0 Ether ($0.00) ,Initialized,[]
+4,197436,161383 (81.74%),"1.01000232383887 Ether  ($1,809.26) ",Deposit,[]
+5,46603,23836 (51.15%),0 Ether ($0.00) ,Collect,"[['uint256', '1010002323838870000'], ['', '0x7da7d57fc7b92cb13e167ac74948a45bc2e57daa']]"

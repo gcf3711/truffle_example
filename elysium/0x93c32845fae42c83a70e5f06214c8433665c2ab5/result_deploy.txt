@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'X_WALLET'
+   --------------------
+   > transaction hash:    0x9697cd5be1b791839587c28ded833e15cc1434b3db114a1386e29f5725d52fa2
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x5f1E1c02c5dB30C3866Da217aB370b50378f3990
+   > block number:        1243
+   > block timestamp:     1683881213
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.726660390618213152
+   > gas used:            110781 (0x1b0bd)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000276952500886248 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000276952500886248 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000276952500886248 ETH
+
+

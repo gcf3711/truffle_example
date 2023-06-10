@@ -1,0 +1,44 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/workdir/truffle_example/elysium/0x9D5bd53fc23D6485A80B9879097E67a797365Ca5/build/contracts/Coffeecoin.json'
+Require stack:
+- /usr/local/lib/node_modules/truffle/node_modules/original-require/index.js
+- /usr/local/lib/node_modules/truffle/build/cli.bundled.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at require (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:56:1)
+    at /workdir/truffle_example/elysium/0x9D5bd53fc23D6485A80B9879097E67a797365Ca5/migrations/1_deploy_contract.js:1:14
+    at Script.runInContext (node:vm:139:12)
+    at Script.runInNewContext (node:vm:144:17)
+    at Object.file (/usr/local/lib/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:42:1)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+    at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0

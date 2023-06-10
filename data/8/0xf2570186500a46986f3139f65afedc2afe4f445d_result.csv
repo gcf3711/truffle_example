@@ -1,0 +1,4 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,147059,147058 (100%),0 Ether ($0.00) ,constructor,[]
+1,27989,27988 (100%),0 Ether ($0.00) ,makeOldFucks,"[['uint32', '1']]"
+2,4000000,107503 (2.69%),0 Ether ($0.00) ,makeOldFucks,"[['uint32', '10']]"

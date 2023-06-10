@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'AirDropContract'
+   ---------------------------
+   > transaction hash:    0xf646fb027946198c26938c85a41fe75274cbeab48b1e8c7560427181b5f8fbcb
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x7b833252044CD8e48931d90809517Fea76123241
+   > block number:        1246
+   > block timestamp:     1683881223
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.725999823116099336
+   > gas used:            195789 (0x2fccd)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000489472501566312 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000489472501566312 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000489472501566312 ETH
+
+

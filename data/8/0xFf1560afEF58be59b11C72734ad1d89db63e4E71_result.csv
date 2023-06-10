@@ -1,0 +1,5 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,874696,874695 (100%),0 Ether ($0.00) ,constructor,[]
+1,38015,38014 (100%),0 Ether ($0.00) ,mintToken,"[['address', '0x4BCc85fa097ad0f5618cb9bb5bc0AFfbAEC359B5'], ['uint256', '200']]"
+2,35899,35898 (100%),0 Ether ($0.00) ,sell,"[['uint256', '0']]"
+3,51756,51755 (100%),0 Ether ($0.00) ,transfer,"[['address', '0xFf1560afEF58be59b11C72734ad1d89db63e4E71'], ['uint256', '100000']]"

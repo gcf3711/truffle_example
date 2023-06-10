@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'FiftyFlip'
+   ---------------------
+   > transaction hash:    0xff8fac014b86525dbc03e3c88ba4b568948760e86fa65100277bbff87e88e361
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xfA6926495BF230e48994744F64602Dff18E35E97
+   > block number:        212
+   > block timestamp:     1683879413
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.861535863549814664
+   > gas used:            280043 (0x445eb)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000700107502240344 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000700107502240344 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.000700107502240344 ETH
+
+

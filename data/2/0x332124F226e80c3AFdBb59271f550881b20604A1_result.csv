@@ -1,0 +1,8 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,4700000,984985 (20.96%),0 Ether ($0.00) ,constructor,[]
+1,79101,52734 (66.67%),0 Ether ($0.00) ,transfer,"[['address', '0x127F6A1efc0fC22E29aC88905b228CFdfDC9F227'], ['uint256', '1000000000000000000']]"
+2,79293,52862 (66.67%),0 Ether ($0.00) ,transfer,"[['address', '0xA659FB8A211EEC2E9504dF55aD0aB44C212C1984'], ['uint256', '245000000000000000000000']]"
+3,68305,45537 (66.67%),0 Ether ($0.00) ,freezeAccount,"[['address', '0xA659FB8A211EEC2E9504dF55aD0aB44C212C1984'], ['bool', 'true']]"
+4,52092,19728 (37.87%),0 Ether ($0.00) ,burn,"[['uint256', '959754999000000000000000000']]"
+5,45709,15473 (33.85%),0 Ether ($0.00) ,freezeAccount,"[['address', '0xA659FB8A211EEC2E9504dF55aD0aB44C212C1984'], ['bool', '']]"
+6,68305,45537 (66.67%),0 Ether ($0.00) ,freezeAccount,"[['address', '0xA659FB8A211EEC2E9504dF55aD0aB44C212C1984'], ['bool', 'true']]"

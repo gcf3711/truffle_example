@@ -1,0 +1,123 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'Token'
+   -----------------
+ *** Deployment Failed ***
+
+"Token" -- invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0).
+
+
+Exiting: Review successful transactions manually by checking the transaction hashes above on Etherscan.
+
+
+Error:  *** Deployment Failed ***
+
+"Token" -- invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0).
+
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:331:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+    at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1)
+Truffle v5.5.23 (core: 5.5.23)
+Node v16.16.0
+UnhandledRejections detected
+Promise {
+  <rejected> Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0)
+      at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:300:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+      at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+      at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+      at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+      at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+      at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+      at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+      at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+      at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1) {
+    reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0)',
+    code: 'INVALID_ARGUMENT',
+    argument: '_vaultAddress',
+    value: undefined,
+    hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0)\n' +
+      '    at Logger.makeError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:269:28)\n' +
+      '    at Logger.throwError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:281:20)\n' +
+      '    at Logger.throwArgumentError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:285:21)\n' +
+      '    at AddressCoder.Coder._throwError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/abstract-coder.ts:68:16)\n' +
+      '    at AddressCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/address.ts:22:18)\n' +
+      '    at /usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/array.ts:71:19\n' +
+      '    at Array.forEach (<anonymous>)\n' +
+      '    at pack (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/array.ts:54:12)\n' +
+      '    at TupleCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/tuple.ts:54:20)\n' +
+      '    at AbiCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/abi-coder.ts:111:15)\n' +
+      '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-abi/lib/index.js:127:27)\n' +
+      '    at /usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-contract/lib/index.js:463:20\n' +
+      '    at Array.map (<anonymous>)\n' +
+      '    at Object._encodeMethodABI (/usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-contract/lib/index.js:462:8)\n' +
+      '    at /usr/local/lib/node_modules/@truffle/contract/lib/execute.js:284:50\n' +
+      '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+  },
+  _events: Events <[Object: null prototype] {}> {},
+  emit: [Function: emit],
+  on: [Function: on],
+  once: [Function: once],
+  off: [Function: removeListener],
+  listeners: [Function: listeners],
+  addListener: [Function: on],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  _eventsCount: 0
+} Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0)
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:300:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:142:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:107:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:91:1)
+    at module.exports (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/runMigrations.js:10:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:41:1)
+    at runCommand (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:184:1) {
+  reason: 'invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0)',
+  code: 'INVALID_ARGUMENT',
+  argument: '_vaultAddress',
+  value: undefined,
+  hijackedStack: 'Error: invalid address (argument="address", value=undefined, code=INVALID_ARGUMENT, version=address/5.7.0) (argument="_vaultAddress", value=undefined, code=INVALID_ARGUMENT, version=abi/5.7.0)\n' +
+    '    at Logger.makeError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:269:28)\n' +
+    '    at Logger.throwError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:281:20)\n' +
+    '    at Logger.throwArgumentError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/logger/src.ts/index.ts:285:21)\n' +
+    '    at AddressCoder.Coder._throwError (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/abstract-coder.ts:68:16)\n' +
+    '    at AddressCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/address.ts:22:18)\n' +
+    '    at /usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/array.ts:71:19\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at pack (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/array.ts:54:12)\n' +
+    '    at TupleCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/coders/tuple.ts:54:20)\n' +
+    '    at AbiCoder.encode (/usr/local/lib/node_modules/@truffle/contract/node_modules/@ethersproject/abi/src.ts/abi-coder.ts:111:15)\n' +
+    '    at ABICoder.encodeParameters (/usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-abi/lib/index.js:127:27)\n' +
+    '    at /usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-contract/lib/index.js:463:20\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object._encodeMethodABI (/usr/local/lib/node_modules/@truffle/contract/node_modules/web3-eth-contract/lib/index.js:462:8)\n' +
+    '    at /usr/local/lib/node_modules/@truffle/contract/lib/execute.js:284:50\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)'
+}

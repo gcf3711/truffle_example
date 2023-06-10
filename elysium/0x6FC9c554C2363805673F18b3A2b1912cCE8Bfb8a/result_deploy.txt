@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'RocketCoin'
+   ----------------------
+   > transaction hash:    0xb223d4149036f02533a315c1b83556677ed9a5c8cf6ac59b2b747df8b8299658
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xf35e0895CaF9739Dff78DfA7d75c4187BFA178d4
+   > block number:        467
+   > block timestamp:     1683879698
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.850269466013762192
+   > gas used:            779384 (0xbe478)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001948460006235072 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001948460006235072 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001948460006235072 ETH
+
+

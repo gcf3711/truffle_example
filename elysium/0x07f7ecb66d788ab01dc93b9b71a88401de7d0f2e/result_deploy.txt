@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'PoCGame'
+   -------------------
+   > transaction hash:    0xb480813e9498079272e589b566fa16437b9a0f2b6f52c3b6183d8652b61684c0
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x58917B3E4468e58638DcFEb5e5FFb84882bcCaf7
+   > block number:        2
+   > block timestamp:     1686029362
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.996168976952548093
+   > gas used:            576907 (0x8cd8b)
+   > gas price:           3.265625001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001883961922451907 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001883961922451907 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001883961922451907 ETH
+
+

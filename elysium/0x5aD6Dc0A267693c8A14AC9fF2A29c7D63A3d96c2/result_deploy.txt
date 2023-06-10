@@ -1,0 +1,41 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 9007199254740991 (0x1fffffffffffff)
+
+
+1_deploy_contract.js
+====================
+
+   Replacing 'MP3Coin'
+   -------------------
+   > transaction hash:    0xc1074cb264b0ed4843c518cafe2ce71cf9d6143a3ba6cd927f338bd54b16d6f4
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xEd1744987f09176cfb366329EeC9F31522812548
+   > block number:        1239
+   > block timestamp:     1683881181
+   > account:             0x4e6DE3F1e73b0219EbBDda39B807be71a64E965d
+   > balance:             99.729434983127091848
+   > gas used:            568504 (0x8acb8)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001421260004548032 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001421260004548032 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.001421260004548032 ETH
+
+

@@ -1,0 +1,9 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,457279,381066 (83.33%),0 Ether ($0.00) ,constructor,[]
+1,56143,46786 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+2,49975,21289 (42.6%),0.5572347762357 Ether  ($991.71) ,Transfer,[]
+3,23378,23378 (100%),0 Ether ($0.00) ,transfer,"[['address', '0x00328ED28c9BeFA9d7333dD3809697b0A368636b'], ['uint256', '1']]"
+4,31786,31786 (100%),0 Ether ($0.00) ,initTokenBank,[]
+5,23353,23353 (100%),0 Ether ($0.00) ,WithdrawToken,[]
+6,50586,42155 (83.33%),"1.001 Ether  ($1,781.48) ",Deposit,[]
+7,64812,37343 (57.62%),0 Ether ($0.00) ,WithdrawToHolder,"[['address', '0xA14b4A2E37A9806522E894651054F823251a90c9'], ['uint256', '1558234776235700000'], ['', '0xa14b4a2e37a9806522e894651054f823251a90c9']]"

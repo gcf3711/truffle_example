@@ -1,0 +1,17 @@
+,GasLimit,GasUsage,Value,Method,Args
+0,820412,683677 (83.33%),0 Ether ($0.00) ,constructor,[]
+1,56042,46702 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+2,50501,42084 (83.33%),"1.000000000000000001 Ether  ($1,793.76) ",Deposit,[]
+3,33547,33460 (99.74%),0 Ether ($0.00) ,WithdrawToken,"[['address', '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07'], ['uint256', '79155392369143047'], ['address', '0x0023ed0a8F43C2B80605b3acD21161972E1E41E0']]"
+4,133547,40157 (30.07%),0 Ether ($0.00) ,WithdrawToken,"[['address', '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07'], ['uint256', '79155392369143047'], ['address', '0x0023ed0a8F43C2B80605b3acD21161972E1E41E0']]"
+5,38042,31702 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+6,38042,31702 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+7,38042,31702 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+8,38042,31702 (83.33%),0 Ether ($0.00) ,initTokenBank,[]
+9,47553,31702 (66.67%),0 Ether ($0.00) ,initTokenBank,[]
+10,37849,25233 (66.67%),0 Ether ($0.00) ,WithdrawToken,"[['address', '0x8FD1e427396dDb511533CF9aBDbeBD0A7e08dA35'], ['uint256', '900000000000000000'], ['address', '0xC86f0c6a8C71247dfB2865A6e007102eF3D7a7D2']]"
+11,100000,31702 (31.7%),0 Ether ($0.00) ,initTokenBank,[]
+12,35372,29477 (83.33%),0 Ether ($0.00) ,WithdrawToHolder,"[['address', '0x6Be647Eb6aa4a1A0B6349e786F075697C9a18CAC'], ['uint256', '1']]"
+13,235372,29477 (12.52%),0 Ether ($0.00) ,WithdrawToHolder,"[['address', '0x6Be647Eb6aa4a1A0B6349e786F075697C9a18CAC'], ['uint256', '1']]"
+14,47553,31702 (66.67%),0 Ether ($0.00) ,initTokenBank,[]
+15,47553,31702 (66.67%),0 Ether ($0.00) ,initTokenBank,[]
